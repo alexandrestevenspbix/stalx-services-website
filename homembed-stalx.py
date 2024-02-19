@@ -49,7 +49,7 @@ colors = {'Actual': '#9e8aea', selected_scenario: '#d6c7ff'}
 # Mise à jour des couleurs
 for i, trace in enumerate(fig.data):
     trace.line.color = colors[trace.name]
-    trace.line.width = 2  # Épaisseur de la ligne
+    trace.line.width = 3  # Épaisseur de la ligne
 
 # Mise à jour du layout
 fig.update_layout(title_text=f"Comparaison {selected_scenario} vs Actual",
