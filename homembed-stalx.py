@@ -53,7 +53,6 @@ for i, trace in enumerate(fig.data):
 
 # Mise à jour du layout
 fig.update_layout(title_text=f"Comparaison {selected_scenario} vs Actual",
-                  xaxis_title='Date', yaxis_title='Montant cumulé (k euros)', showtoolbar=False)
-
+                  xaxis_title='Date', yaxis_title='Montant cumulé (k euros)')
 # Affichage du graphique dans la deuxième colonne
 col2.plotly_chart(fig)
